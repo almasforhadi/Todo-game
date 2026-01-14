@@ -45,11 +45,10 @@ ALLOWED_HOSTS = [
 # Note: Django doesn't support wildcards in CSRF_TRUSTED_ORIGINS
 # If you get a new ngrok domain, add it here
 CSRF_TRUSTED_ORIGINS = [
-    'https://subclimatic-sherri-nonprovocatively.ngrok-free.dev',
-    'http://localhost:8000',
-    'http://127.0.0.1:8000',
+    'https://todo-game.onrender.com',
+    'http://127.0.0.1',
+    'http://localhost'
 ]
-
 
 # Application definition
 
